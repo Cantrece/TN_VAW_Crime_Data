@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?><?mso-application progid='Excel.Sheet'?>
+<ss:Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="sTitle">
+   <Font ss:Bold="1" />
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+  </Style>
+  <Style ss:ID="sHeader">
+   <Alignment ss:Horizontal="Center" />
+   <Font ss:Bold="1" />
+   <Interior ss:Color="#d7ebff" ss:Pattern="Solid" />
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+  </Style>
+  <Style ss:ID="sData">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+  </Style>
+  <Style ss:ID="sDimCol">
+   <Alignment ss:Horizontal="Center" />
+   <Font ss:Bold="1" />
+   <Interior ss:Color="#d7ebff" ss:Pattern="Solid" />
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+  </Style>
+  <Style ss:ID="sDimRow">
+   <Alignment ss:Vertical="Center" />
+   <Font ss:Bold="1" />
+   <Interior ss:Color="#ffdd95" ss:Pattern="Solid" />
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+  </Style>
+  <Style ss:ID="sDimOther">
+   <Alignment ss:Vertical="Center" />
+   <Font ss:Bold="1" />
+   <Interior ss:Color="#A9CCE3" ss:Pattern="Solid" />
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+  </Style>
+  <Style ss:ID="sMemCol">
+   <Alignment ss:Horizontal="Center" />
+   <Interior ss:Color="#d7ebff" ss:Pattern="Solid" />
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+  </Style>
+  <Style ss:ID="sMemRow">
+   <Alignment ss:Vertical="Center" />
+   <Interior ss:Color="#ffdd95" ss:Pattern="Solid" />
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+  </Style>
+  <Style ss:ID="sData00">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+   <NumberFormat ss:Format="#,#" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="CONTENTS">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Sheet name</Data>
+    </Cell>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Sheet description</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell>
+     <Data ss:Type="String">DLD_INFO</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Download Information</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell>
+     <Data ss:Type="String">REPORT</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">The report</Data>
+    </Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="DLD_INFO">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Date and time</Data>
+    </Cell>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Report title</Data>
+    </Cell>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">URL</Data>
+    </Cell>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Language</Data>
+    </Cell>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Data source notes</Data>
+    </Cell>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Report notes</Data>
+    </Cell>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Required footnotes</Data>
+    </Cell>
+    <Cell ss:StyleID="sHeader">
+     <Data ss:Type="String">Symbolic footnotes</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell>
+     <Data ss:Type="String">7/22/2018 12:40:27 PM</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">Domestic Violence - Aggravated Assaults by Day of Week</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">https://crimeinsight.tbi.tn.gov/public</Data>
+    </Cell>
+    <Cell>
+     <Data ss:Type="String">en English</Data>
+    </Cell>
+    <Cell />
+    <Cell />
+    <Cell />
+    <Cell />
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="REPORT">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sTitle">
+     <Data ss:Type="String">Domestic Violence - Aggravated Assaults by Day of Week</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell>
+     <Data ss:Type="String">Current date: 7/22/2018 12:40:26 PM (Central Daylight Time)</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell>
+     <Data ss:Type="String">Incident Date: 2017</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell>
+     <Data ss:Type="String">Measures: Number of Victims</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell />
+   </Row>
+   <Row>
+    <Cell ss:StyleID="sDimOther">
+     <Data ss:Type="String">Domestic Situation - Domestic Violence Victim</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="0" ss:StyleID="sDimCol">
+     <Data ss:Type="String">Incident Day of Week</Data>
+    </Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="sMemCol">
+     <Data ss:Type="String">Sunday</Data>
+    </Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="sMemCol">
+     <Data ss:Type="String">Monday</Data>
+    </Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="sMemCol">
+     <Data ss:Type="String">Tuesday</Data>
+    </Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="sMemCol">
+     <Data ss:Type="String">Wednesday</Data>
+    </Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="sMemCol">
+     <Data ss:Type="String">Thursday</Data>
+    </Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="sMemCol">
+     <Data ss:Type="String">Friday</Data>
+    </Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="sMemCol">
+     <Data ss:Type="String">Saturday</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="sDimRow">
+     <Data ss:Type="String">Offense Type</Data>
+    </Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="1" ss:StyleID="sMemRow">
+     <Data ss:Type="String">Aggravated Assault</Data>
+    </Cell>
+    <Cell ss:Index="2" ss:StyleID="sData00">
+     <Data ss:Type="Number">1895</Data>
+    </Cell>
+    <Cell ss:StyleID="sData00">
+     <Data ss:Type="Number">1570</Data>
+    </Cell>
+    <Cell ss:StyleID="sData00">
+     <Data ss:Type="Number">1680</Data>
+    </Cell>
+    <Cell ss:StyleID="sData00">
+     <Data ss:Type="Number">1487</Data>
+    </Cell>
+    <Cell ss:StyleID="sData00">
+     <Data ss:Type="Number">1440</Data>
+    </Cell>
+    <Cell ss:StyleID="sData00">
+     <Data ss:Type="Number">1563</Data>
+    </Cell>
+    <Cell ss:StyleID="sData00">
+     <Data ss:Type="Number">1868</Data>
+    </Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</ss:Workbook>
