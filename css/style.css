@@ -1,0 +1,97 @@
+body {
+	background-color: White;
+	font-family: 'Roboto Slab', serif;
+	padding: 1px;
+	max-width: 100%;
+	min-width: 200px;
+}
+img, embed, object, video {
+	max-width: 100%;
+	min-width: 150px;
+	margin-right: 4px;
+	padding: 4px;
+	background-color: white;
+	border: 2px solid black;
+}
+h1, h2, h3 {
+	color: #665544;
+	padding: 2.5px;
+}
+p {
+	color: #665544;
+	padding: 2px;
+}
+.container {
+	width: 100%;
+	padding: 3px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box {
+	width: 100%;
+	padding: 3px;
+	color: grey;
+}
+@media screen and (min-width: 300px) {
+	.heading {
+		width: 75%;
+		text-align: right;
+		order: 0;
+	}
+	.colors {
+		width: 20%;
+		order: -1;
+		align-items: center;
+	}
+	.thefigure {
+		width: 70%;
+		image-orientation: right;
+
+	}
+	.featuredwork {
+		width: 70%;
+	}
+	.footer {
+		width: 100%;
+		position: inherit;
+		text-align: center;
+		font-style: italic;
+	}
+	@media screen and (min-width: 1100px) {
+		.container {
+			width: 1100px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	@media screen and (min-width: 200px) {
+		#container2 {
+			width: 70%;
+		}
+		.heading {
+			text-align: right;
+		}
+		.colors {
+			min-width: 100%;
+			background-color: white;
+			padding: 1px;
+			margin: auto;
+		}
+		.thefigure {
+			background-color: white;
+			max-width: 100%;
+			padding: 6px;
+			image-orientation: margin-left;
+
+		}
+		.featuredwork {
+			padding: 1px;
+		}
+		.footer {
+			padding: 1px;
+			background-color: lightgrey;
+			font-size: 12px;
+			font-style: italic;
+			color: white;
+			text-align: center;
+		}
